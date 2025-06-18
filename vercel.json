@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "api/signals.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/api/signals", "dest": "api/signals.js" }
-  ]
-}
